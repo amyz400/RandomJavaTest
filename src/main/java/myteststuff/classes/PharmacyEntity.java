@@ -28,15 +28,6 @@ public class PharmacyEntity implements Serializable {
   private String state;
   private String zipCode;
   private String primaryPhone;
-//  private String fax;
-//  private String email;
-//  private boolean mailOrder;
-//  private boolean twentyFourHour;
-//  private boolean retail;
-//  private boolean longTermCare;
-//  private boolean specialty;
-//  private LocalDateTime startDate;
-//  private LocalDateTime endDate;
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
